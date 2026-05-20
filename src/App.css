@@ -111,8 +111,8 @@ body {
 }
 
 .secondary-btn {
-  background: transparent;
-  border: 2px solid white;
+  background-color: #d4a017;
+  border: none;
   color: white;
   padding: 15px 30px;
   border-radius: 5px;

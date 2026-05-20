@@ -28,7 +28,11 @@ function Home() {
 
             <div className="hero-buttons">
 
-              <button className="primary-btn"onClick={scrollToForm}>
+              <button className="primary-btn"onClick={() => {
+                const phoneNumber = "254798305809";
+                const message = encodeURIComponent("Hello Construction Plug KE, I would liketo request a qoute for some construction materials.");
+                window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+              }}>
                 Request Quote
               </button>
 
@@ -129,14 +133,17 @@ function Home() {
         <h2>
           Ready To Source Quality Construction Materials?
         </h2>
-
         <p>
           Contact us today for affordable pricing and reliable delivery.
         </p>
+        <div className="hero-buttons" style={{justifyContent:"center"}}>
+          {/*the immediate call*/}
+          <button className="primary-btn" onClick={() => window.location.href = "tel:+254798305809"}>Call Us Now</button>
 
-        <button className="primary-btn">
-          Contact Us
-        </button>
+          {/*the redirect button*/}
+          <button className="secondary-btn" onClick={() => window.location.href ="/contact"}>Send a Message</button>
+
+        </div>
 
       </section>
       <Footer />
