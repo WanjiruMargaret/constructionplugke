@@ -3,6 +3,16 @@ import Footer from "../components/Footer";
 function Materials() {
   return (
     <div className="materials-page">
+      {/* HERO SECTION */}
+      <section className="about-hero">
+        <div className="about-overlay">
+          <div className="about-content">
+            <div/>
+            <h1>Materials We Offer </h1>
+            <p>Discover our wide range of high-quality construction materials.</p>
+          </div>
+        </div>
+      </section>
 
       {/* HEADER */}
       <section className="materials-page-header">

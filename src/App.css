@@ -422,12 +422,10 @@ body {
 }
 
 .materials-page-header {
-  background-color: #0b1f3a;
-  color: white;
-
+  color: #0b1f3a;
   text-align: center;
-
-  padding: 180px 20px 100px;
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 .materials-page-header h1 {
