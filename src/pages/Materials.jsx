@@ -92,7 +92,7 @@ function Materials() {
 
       </section>
 
-      <Footer />
+      <Footer/>
 
     </div>
   );
