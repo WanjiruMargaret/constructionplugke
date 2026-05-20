@@ -1,6 +1,11 @@
+import {useRef} from "react";
 import Footer from "../components/Footer";
 
 function Home() {
+  const contactFormRef = useRef(null);
+  const scrollToForm = () => {
+    contactFormRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div>
 
@@ -23,7 +28,7 @@ function Home() {
 
             <div className="hero-buttons">
 
-              <button className="primary-btn">
+              <button className="primary-btn"onClick={scrollToForm}>
                 Request Quote
               </button>
 
@@ -120,8 +125,7 @@ function Home() {
 
       </section>
       {/* CTA SECTION */}
-      <section className="cta-section">
-
+      <section className="cta-section" ref={contactFormRef}>
         <h2>
           Ready To Source Quality Construction Materials?
         </h2>
