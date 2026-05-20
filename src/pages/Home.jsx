@@ -3,9 +3,6 @@ import Footer from "../components/Footer";
 
 function Home() {
   const contactFormRef = useRef(null);
-  const scrollToForm = () => {
-    contactFormRef.current.scrollIntoView({ behavior: "smooth" });
-  };
   return (
     <div>
 
