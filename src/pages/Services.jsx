@@ -3,13 +3,23 @@ import Footer from "../components/Footer";
 function Services() {
   return (
     <div className="services-page">
+      {/*Hero Section*/}
+      <section className="about-hero">
+        <div className="about-overlay">
+          <div className="about-content">
+            <h1>Our Services</h1>
+            <p>Professional procurement and sourcing services for construction projects.</p>
+          </div>
+        </div>
+      </section>
 
+      {/* Services Section */}
       <div className="services-page-header">
 
-        <h1>Our Services</h1>
+        <h1>Services we offer</h1>
 
         <p>
-          Professional procurement and sourcing services for construction projects.
+          We provide the best sourcing and procurement services for construction materials in Kenya.
         </p>
 
       </div>

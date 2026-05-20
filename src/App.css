@@ -287,9 +287,7 @@ body {
 /* SERVICES PAGE */
 
 .services-page {
-  padding-top: 120px;
   background-color: #f5f5f5;
-  min-height: 100vh;
 }
 
 .services-page-header {
