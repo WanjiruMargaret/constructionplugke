@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import WhatsAppButton from "../components/WhatsAppButton";
 
 function Home() {
   return (
@@ -136,8 +135,6 @@ function Home() {
         </button>
 
       </section>
-
-      <WhatsAppButton />
       <Footer />
 
     </div>
